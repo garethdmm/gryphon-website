@@ -10,3 +10,19 @@ main {
   background-size: 90%;
   background-repeat: no-repeat;
 }
+
+.features h2 {
+  font-weight: 400;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.features img {
+  height: 300px;
+  width: 300px;
+}
