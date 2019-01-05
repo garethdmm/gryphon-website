@@ -2,11 +2,44 @@ body {
   background-color: #28373e;
 }
 
-#logo {
-  display: block;
+#top-unit {
   margin-top: 38%;
+  width: 720px;
   margin-left: auto;
   margin-right: auto;
-  height: 175px;
-  width: 175px;
+}
+
+div#hero-right {
+  width: 502px;
+  margin-left: 100px;
+}
+
+h1 {
+  width: 419px;
+  height: 24px;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3.6px;
+  color: #30c3e0;
+}
+
+span.h1-highlight {
+  font-weight: 900;
+}
+
+p#pull-quote {
+  margin-top: 33px;
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+span.pull-quote-highlight {
+  font-weight: bold;
 }
