@@ -43,3 +43,12 @@ p#pull-quote {
 span.pull-quote-highlight {
   font-weight: bold;
 }
+
+#hero-bg-gryphon {
+  position: absolute;
+  bottom: 0px;
+  /* In Zeplin it's given as a 10px right margin, but the image files that were
+  delivered are have substantially less whitespace in them, 431 vs 494, so here we are
+  just including that difference in the 'right' property.*/
+  right: 70px;
+}
