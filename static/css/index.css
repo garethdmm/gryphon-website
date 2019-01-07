@@ -4,6 +4,9 @@ body {
 
 #top-unit {
   margin-top: 38%;
+}
+
+#top-unit, #buttons {
   width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -44,6 +47,30 @@ span.pull-quote-highlight {
   font-weight: bold;
 }
 
+span#pip-install p {
+  margin-top: 66px;
+  margin-bottom: 35px;
+  padding-left: 18px;
+  padding-top: 13px;
+  width: 523px;
+  height: 55px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.03);
+  font-family: 'Roboto Mono';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+div#pip-install p {
+  color: white;
+  opacity: 1;
+}
+
 #hero-bg-gryphon {
   position: absolute;
   bottom: 0px;
@@ -51,4 +78,65 @@ span.pull-quote-highlight {
   delivered are have substantially less whitespace in them, 431 vs 494, so here we are
   just including that difference in the 'right' property.*/
   right: 70px;
+}
+
+/*
+TODO buttons:
+- should they be <buttons>?
+- are we doing the layout properly? are span's the right way to do this?
+- should the icons be in a font?
+- nail down the internal borders, padding numbers to align the text and icons with
+  eachother and with their container.
+*/
+.gryphon-btn, .gryphon-btn:hover, .gryphon-btn:visited {
+  width: 200px;
+  height: 53px;
+  border: 1px rgba(255, 255, 255, 0.6);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.btn-highlight {
+  background-color: #30c3e0;
+  margin-right: 20px;
+}
+
+.btn-lowlight {
+
+}
+
+/* The download button is pretty much pixel-perfect.*/
+img.dl-icon {
+  float: left;
+  padding-top: 19px;
+  padding-left: 21px;
+  padding-bottom: 18px;
+  padding-right: 18px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* This icon has some weird issues with the size of the image. The image is 12x14 in
+zeplin, but 13x16 in the png, and resizing it in css makes it disappear for some
+reason. I think this could be improved slightly.*/
+img.docs-icon {
+  float: left;
+  padding-top: 19px;
+  padding-left: 21px;
+  padding-bottom: 16px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+p.btn-text {
+  float: left;
+  margin-left: 26px;
+  margin-top: 19px;
 }
