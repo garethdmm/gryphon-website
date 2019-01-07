@@ -2,11 +2,18 @@ body {
   background-color: #28373e;
 }
 
-#top-unit {
+#hero-container {
+  height: 700px;
+  background-image: url('../../static/img/gryphon-bg-hero.png');
+  background-repeat: no-repeat;
+  background-position: right 70px bottom;
+}
+
+#hero {
   margin-top: 220px;
 }
 
-#top-unit, #buttons {
+#hero, #buttons {
   width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -143,4 +150,57 @@ p.btn-text {
   float: left;
   margin-left: 26px;
   margin-top: 19px;
+}
+
+div#history-container {
+  background-color: white;
+  height: 670px;
+  color: black;
+}
+
+div#history {
+  width: 670px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#history h2 {
+  width: 668px;
+  height: 24px;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  color: #000000;
+  margin-bottom: 66px;
+}
+
+div#history h2 span.bold {
+  font-weight: bold;
+}
+
+div#history p {
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+div#history img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 78px;
+}
+
+div#footer-container {
+  height: 750px;
 }
