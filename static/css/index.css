@@ -3,7 +3,7 @@ body {
 }
 
 #top-unit {
-  margin-top: 38%;
+  margin-top: 220px;
 }
 
 #top-unit, #buttons {
@@ -47,6 +47,10 @@ span.pull-quote-highlight {
   font-weight: bold;
 }
 
+/*
+Citylights has the code instantly selectable (for copying) when you click nearby,
+this might be as simple as using a <code> tag and putting the $ in a span.
+*/
 span#pip-install p {
   margin-top: 66px;
   margin-bottom: 35px;
