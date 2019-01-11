@@ -2,15 +2,80 @@ body {
   background-color: #28373e;
 }
 
+/* Navbar */
+
+nav#navbar {
+  background-color: #28373e;
+  padding-top: 35px;
+  padding-right: 25px;
+}
+
+nav a, nav a:visited, nav a:hover {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  color: #ffffff;
+}
+
+nav li.nav-item {
+  margin-left: 55px;
+}
+
+nav div.dropdown-menu {
+  background-color: #1d292e;
+  border-radius: 0px;
+  padding-top: 23px;
+  padding-bottom: 28px;
+  padding-left: 24px;
+}
+
+a#github-link {
+  margin-bottom: 25px;
+}
+
+nav div.dropdown-menu a.dropdown-item {
+  background-color: inherit;
+  padding: 0px;
+}
+
+nav a.nav-link.dropdown-toggle {
+  padding-bottom: 21px;
+}
+
+nav div.dropdown-menu a, nav div.dropdown-menu a:visited, nav div.dropdown-menu a:hover, nav div.dropdown-menu a.active {
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  background-image: none;
+  background-color: inherit;
+}
+
+nav div.dropdown-menu img {
+  margin-right: 10px;
+}
+
+
+/* Hero */
+
 #hero-container {
-  height: 700px;
+  height: 610px;
   background-image: url('../../static/img/gryphon-bg-hero.png');
   background-repeat: no-repeat;
   background-position: right 70px bottom;
 }
 
 #hero {
-  margin-top: 220px;
+  margin-top: 128px;
 }
 
 #hero, #buttons {
@@ -100,8 +165,6 @@ TODO buttons:
   eachother and with their container.
 */
 .gryphon-btn, .gryphon-btn:hover, .gryphon-btn:visited {
-  width: 200px;
-  height: 53px;
   border: 1px rgba(255, 255, 255, 0.6);
   font-family: Lato;
   font-size: 12px;
@@ -113,6 +176,11 @@ TODO buttons:
   color: #ffffff;
   text-decoration: none;
   border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+#download-btn, #docs-btn {
+  width: 200px;
+  height: 53px;
 }
 
 .btn-highlight {
@@ -249,19 +317,7 @@ div#robust {
   width: 100%;
 }
 
-div#robust h3 {
-  display: block;
-  font-family: 'Roboto Mono';
-  font-size: 24px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: normal;
-  color: #23bbd9;
-}
-
-div#robust h2 {
+h2.section-title {
   font-family: 'Lato';
   font-size: 27px;
   font-weight: normal;
@@ -269,6 +325,25 @@ div#robust h2 {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 4.9px;
+}
+
+h3.numeral {
+  font-family: 'Roboto Mono';
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  margin-bottom: 0px;
+}
+
+div#robust h3 {
+  display: block;
+  color: #23bbd9;
+}
+
+div#robust h2 {
   color: #23bbd9;
   margin-bottom: 40px;
 }
@@ -356,25 +431,12 @@ div#robust-uptime p {
 }
 
 div#integrations h3 {
-  font-family: 'Roboto Mono';
-  font-size: 24px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.79;
-  letter-spacing: normal;
   color: #000000;
 }
 
 div#integrations h2 {
-  font-family: Lato;
-  font-size: 27px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 4.9px;
   color: #000000;
+  margin-bottom: 80px;
 }
 
 div#integrations p {
@@ -388,8 +450,223 @@ div#integrations p {
   color: #000000;
 }
 
-div#integrations h2 {
-  margin-bottom: 80px;
+/* Strategies */
+
+#strategies h2 {
+  color: #ffffff;
+  margin-bottom: 90px;
 }
 
+#strategies h3 {
+  color: #ffffff;
+}
 
+#strategies-container {
+  height: 975px;
+  background-color: #28373e;
+}
+
+#strategies {
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#strategies h4 {
+  font-family: 'Lato';
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  color: #30c3e0;
+}
+
+#strategies p.descriptor {
+  width: 250px;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  margin-bottom: 65px;
+}
+
+#strat-buttons {
+  text-align: center;
+}
+
+#strat-buttons a {
+  display: inline-block;
+  padding-top: 17px;
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#mm-button {
+  width: 300px;
+  height: 50px;
+  margin-right: 0px;
+}
+
+#arb-button {
+  width: 250px;
+  height: 50px;
+  margin-left: -5px;
+  border-left: none;
+}
+
+/* Dashboards */
+
+#dashboards-container {
+  height: 2300px;
+  background-color: #28373e;
+}
+
+#dashboards {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 120px;
+}
+
+#dashboards h2.section-title {
+  color: #ffffff;
+}
+
+#dashboards h3 {
+  color: #ffffff;
+}
+
+#dashboards p#dashboards-desc {
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+
+/* fund */
+/* TODO: it seems like there should be a little more margin at the bottom of this
+section */
+#fund-container {
+  height: 956px;
+  background-color: #f6f7fa;
+}
+
+#fund {
+  margin-left: 150px;
+  margin-top: 120px;
+  /* No right margin because we need to place the image overlapping the edge. */
+}
+
+#fund h3.numeral {
+  color: #000000;
+}
+
+#fund h2.section-title {
+  color: #000000;
+  margin-bottom: 47px;
+}
+
+#fund p#fund-desc {
+  width: 450px;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #000000;
+  margin-bottom: 53px;
+}
+
+#fund img#net-assets {
+  margin-right: -15px;  /* place it right on the edge */
+}
+
+ul#fund-features {
+  list-style: none;
+  padding: 40px;
+  border: 1px solid #77cad9;
+}
+
+#fund-features h5 {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.08;
+  letter-spacing: 0.3px;
+  color: #30c3e0;
+  margin-bottom: 34px;
+}
+
+ul#fund-features li {
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.07;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+ul#fund-features li span.point {
+  font-family: 'Roboto Mono';
+  line-height: 2.87;
+  letter-spacing: 0.3px; 
+  color: #30c3e0;
+  font-size: 15px;
+  font-weight: 300;
+  margin-right: 22px;
+}
+
+/* Built in features */
+
+div#features-container {
+  height: 700px;
+  background-color: #f6f7fa;
+}
+
+div#features {
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+div#features h2.section-title {
+  margin-bottom: 40px;
+  width: 446px;
+}
+
+p#features-desc {
+  width: 376px;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+img#builtin-services {
+  margin-top: 30px;
+}
