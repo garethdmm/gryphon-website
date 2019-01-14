@@ -14,7 +14,7 @@ nav a, nav a:visited, nav a:hover {
   text-decoration: none;
   font-family: Lato;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -50,7 +50,7 @@ nav a.nav-link.dropdown-toggle {
 nav div.dropdown-menu a, nav div.dropdown-menu a:visited, nav div.dropdown-menu a:hover, nav div.dropdown-menu a.active {
   font-family: 'Lato';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.93;
@@ -62,6 +62,7 @@ nav div.dropdown-menu a, nav div.dropdown-menu a:visited, nav div.dropdown-menu 
 
 nav div.dropdown-menu img {
   margin-right: 10px;
+  margin-top: -3px;
 }
 
 
@@ -94,20 +95,20 @@ h1 {
   height: 24px;
   font-family: 'Lato';
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 3.6px;
   color: #30c3e0;
 }
 
 span.h1-highlight {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 p#pull-quote {
   margin-top: 33px;
   font-family: Lato;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -116,7 +117,7 @@ p#pull-quote {
 }
 
 span.pull-quote-highlight {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /*
@@ -134,7 +135,7 @@ span#pip-install p {
   background-color: rgba(255, 255, 255, 0.03);
   font-family: 'Roboto Mono';
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
@@ -238,7 +239,7 @@ div#history h2 {
   height: 24px;
   font-family: 'Lato';
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -248,7 +249,7 @@ div#history h2 {
 }
 
 div#history h2 span.bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 div#history p {
@@ -296,7 +297,7 @@ div#footer-container {
   opacity: 0.4;
   font-family: Lato;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.93;
@@ -419,35 +420,50 @@ div#robust-uptime p {
   color: #000000;
 }
 
+/* Integrations */
+
 #integrations-container {
-  background-color: #f6f7fa;
-  height: 990px;
+  background-color: #28373e;
+  height: 900px;
 }
 
 #integrations {
-  margin-top: 120px;
+  margin-top: 80px;
   margin-left: 150px;
   margin-right: 150px;
 }
 
 div#integrations h3 {
-  color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
 
 div#integrations h2 {
-  color: #000000;
-  margin-bottom: 80px;
+  color: #ffffff;
+  margin-bottom: 70px;
+  text-align: center;
 }
 
 div#integrations p {
   font-family: 'Lato';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #000000;
+  color: #ffffff;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+
+div#integrations img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
 /* Strategies */
@@ -475,7 +491,7 @@ div#integrations p {
 #strategies h4 {
   font-family: 'Lato';
   font-size: 21px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 2.05;
@@ -487,7 +503,7 @@ div#integrations p {
   width: 250px;
   font-family: 'Lato';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.93;
@@ -551,7 +567,7 @@ div#integrations p {
 #dashboards p#dashboards-desc {
   font-family: 'Lato';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.93;
@@ -640,7 +656,7 @@ ul#fund-features li span.point {
 /* Built in features */
 
 div#features-container {
-  height: 700px;
+  height: 670px;
   background-color: #f6f7fa;
 }
 
@@ -669,4 +685,36 @@ p#features-desc {
 
 img#builtin-services {
   margin-top: 30px;
+}
+
+/* Accounting */
+
+div#accounting-container {
+  height: 720px;
+  background-color: #ffffff;
+}
+
+#accounting {
+  margin-top: 110px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+p#accounting-desc {
+  width: 376px;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  color: #000000;
+  margin-bottom: 43px;
+}
+
+#accounting img#accounting-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
