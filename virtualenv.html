@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Roboto+Mono:300,400" rel="stylesheet">
+
+    <link rel='stylesheet' href='static/css/alpha.css'/>
+
+    <title>Gryphon Framework</title>
+  </head>
+
+  <body>
+    <div class='container-fluid h-100'>
+      <div class='row h-100 justify-content-center align-items-center'>
+        <div id='papyrus' class='col-5'>
+          <div class='row justify-content-center'>
+            <div class='col-2'>
+              <img id='logo' src='static/img/gryphon-logo-blue.png'/>
+            </div>
+          </div>
+          <div class='row justify-content-center'>
+            <div class='col'>
+              <h1 id='headline'>Howto: virtualenv</h1>
+              <p>Virtualenv lets us create fresh python installs that are kept completely separate from the rest of your machine, which is ideal for projects like Gryphon that have super-specific dependencies.
+              <p>This sequence of commands installs virtualenv, initializes a fresh environment in the env/ directory, and turns it on.
+              <p class='code'>
+                $ pip install virtualenv<br/>
+                $ mkdir env && virtualenv -v env<br/>
+                $ source env/bin/activate<br/>
+              </p>
+              <p>This turns the virtualenv off when you're finished:</p>
+              <p class='code' style='margin-bottom: 2rem'>$ deactivate</p>
+              <a href='alpha.html' class='float-left'>< Back to alpha</a>
+              <a href='https://virtualenv.pypa.io/en/latest/userguide/#activate-script' class='float-right'>Virtualenv reference</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+

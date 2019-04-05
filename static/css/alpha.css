@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  color: #fff;
+  font-family: 'Lato';
+}
+
+body {
+  background-color: #28373e;
+  background-image: url('../../static/img/gryphon-bg-hero.png');
+  background-repeat: no-repeat;
+  background-position: right 70px bottom;
+}
+
+h1#headline {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 3.6px;
+}
+
+div#papyrus {
+  border: 3px solid rgba(255, 255, 255, 0.03);
+  background: rgba(40,55,62, 0.8);
+  padding: 25px 40px;
+}
+
+p {
+  margin-top: 33px;
+  font-family: 'Lato';
+  font-size: 17px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+span.code {
+  font-family: 'Roboto Mono';
+}
+
+p.code {
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.03);
+  font-family: 'Roboto Mono';
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+a, a:visited, a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

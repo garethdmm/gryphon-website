@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Roboto+Mono:300,400" rel="stylesheet">
+
+    <link rel='stylesheet' href='static/css/alpha.css'/>
+
+    <title>Gryphon Framework</title>
+  </head>
+
+  <body>
+    <div class='container-fluid h-100'>
+      <div class='row h-100 justify-content-center align-items-center'>
+        <div id='papyrus' class='col-5'>
+          <div class='row justify-content-center'>
+            <div class='col-2'>
+              <img id='logo' src='static/img/gryphon-logo-blue.png'/>
+            </div>
+          </div>
+          <div class='row justify-content-center'>
+            <div class='col'>
+              <h1 id='headline'>Friends Alpha</h1>
+              <p>Gryphon is launching soon, and I could use your help to find any last-minute bugs in the distribution or install process. If you have five minutes, it shouldn't take any more than that to install the framework and check if the unit tests are passing. Here's what to do:</p>
+              <p>Start a new python 2.7 <a href='virtualenv.html'>virtualenv</a> and install gryphon:</p>
+              <p class='code'>
+                $ pip install gryphon-framework
+              </p>
+              <p>And run the unit-test suite:</p>
+              <p class='code'>
+                $ gryphon-runtests
+              </p>
+              <p>You'll see a lot of cython build output, and then a summary of the test run. If any tests failed, copy the output and send it to me (email or messenger), along with with your operating system version and the output of <span class='code'>$ pip freeze.</span></p>
+              <p>That's it, thanks a ton for helping out!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type='text/javascript'>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      })
+    </script>
+  </body>
+</html>
+
