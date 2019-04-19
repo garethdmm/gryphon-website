@@ -19,6 +19,13 @@ h3.numeral {
   margin-bottom: 0px;
 }
 
+/* General */
+
+div.section-content {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
 /* Hero */
 
 #hero-container {
@@ -26,11 +33,6 @@ h3.numeral {
   background-repeat: no-repeat;
   background-position: right 70px bottom;
   background-color: #28373e;
-}
-
-#hero {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 #hero, #buttons {
@@ -164,11 +166,6 @@ div#history-container {
   color: black;
 }
 
-div#history {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
 div#history h2 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -265,7 +262,7 @@ div#history p {
 }
 
 #integrations {
-  padding-bottom: 9rem;
+  padding-top: 0rem;
 }
 
 div#integrations h3 {
@@ -308,11 +305,6 @@ p#accounting-desc {
 
 div#robust-container {
   background-color: #fff;
-}
-
-div#robust {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 div#robust h3 {
@@ -390,11 +382,6 @@ div#robust-uptime p {
   background-color: #28373e;
 }
 
-#dashboards {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
 #dashboards h2.section-title {
   color: #ffffff;
 }
@@ -407,11 +394,6 @@ div#robust-uptime p {
 
 #fund-container {
   background-color: #f6f7fa;
-}
-
-#fund {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 #fund h3.numeral {
@@ -475,11 +457,6 @@ div#footer-container {
   background-image: url('../../static/img/gryphon-bg-footer.png');
   background-repeat: no-repeat;
   background-position: right 10px bottom;
-}
-
-#footer-hero {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 #footer-footer {
