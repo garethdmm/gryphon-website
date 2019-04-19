@@ -26,13 +26,27 @@ div.section-content {
   padding-bottom: 9rem;
 }
 
+div.section-dark {
+  color: white;
+}
+
+div.section-light {
+  background: white;
+  color: black;
+}
+
+div.section-grey {
+  background-color: #f6f7fa;
+  color: black;
+}
+
+
 /* Hero */
 
 #hero-container {
   background-image: url('../../static/img/gryphon-bg-hero.png');
   background-repeat: no-repeat;
   background-position: right 70px bottom;
-  background-color: #28373e;
 }
 
 #hero, #buttons {
@@ -58,7 +72,6 @@ p#pull-quote {
   font-size: 17px;
   font-weight: 100;
   line-height: normal;
-  color: #ffffff;
 }
 
 span.pull-quote-highlight {
@@ -161,11 +174,6 @@ p.btn-text {
 /* History */
 
 
-div#history-container {
-  background-color: white;
-  color: black;
-}
-
 div#history h2 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -174,7 +182,6 @@ div#history h2 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 3.6px;
-  color: #000000;
   text-align: center;
 }
 
@@ -187,27 +194,12 @@ div#history p {
   font-size: 14px;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #000000;
 }
 
 /* Strategies */
 
 #strategies h2 {
-  color: #ffffff;
   margin-bottom: 90px;
-}
-
-#strategies h3 {
-  color: #ffffff;
-}
-
-#strategies-container {
-  background-color: #28373e;
-}
-
-#strategies {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
 
 #strategies h4 {
@@ -224,7 +216,6 @@ div#history p {
   font-weight: 300;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #ffffff;
 }
 
 #strat-buttons {
@@ -239,7 +230,6 @@ div#history p {
   font-size: 11px;
   line-height: normal;
   letter-spacing: normal;
-  color: #ffffff;
 }
 
 #mm-button {
@@ -257,20 +247,11 @@ div#history p {
 
 /* Integrations */
 
-#integrations-container {
-  background-color: #28373e;
-}
-
 #integrations {
   padding-top: 0rem;
 }
 
-div#integrations h3 {
-  color: #ffffff;
-}
-
 div#integrations h2 {
-  color: #ffffff;
   margin-bottom: 70px;
 }
 
@@ -280,7 +261,6 @@ div#integrations p {
   font-weight: 300;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -289,7 +269,6 @@ div#integrations p {
 
 div#accounting-container {
   padding-top: 9rem;
-  background-color: #ffffff;
 }
 
 p#accounting-desc {
@@ -297,15 +276,10 @@ p#accounting-desc {
   font-size: 14px;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #000000;
   margin-bottom: 43px;
 }
 
 /* Robust */
-
-div#robust-container {
-  background-color: #fff;
-}
 
 div#robust h3 {
   display: block;
@@ -323,7 +297,6 @@ div#robust p#robust-desc {
   font-size: 14px;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #000000;
   margin-bottom: 60px;
 }
 
@@ -365,7 +338,6 @@ div#robust-uptime h5 {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 3.6px;
-  color: #000000;
 }
 
 div#robust-uptime p {
@@ -373,35 +345,13 @@ div#robust-uptime p {
   font-size: 14px;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #000000;
 }
 
 /* Dashboards */
 
-#dashboards-container {
-  background-color: #28373e;
-}
-
-#dashboards h2.section-title {
-  color: #ffffff;
-}
-
-#dashboards h3 {
-  color: #ffffff;
-}
-
 /* Fund */
 
-#fund-container {
-  background-color: #f6f7fa;
-}
-
-#fund h3.numeral {
-  color: #000000;
-}
-
 #fund h2.section-title {
-  color: #000000;
   margin-bottom: 47px;
 }
 
@@ -410,7 +360,6 @@ div#robust-uptime p {
   font-size: 14px;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #000000;
   margin-bottom: 53px;
 }
 
@@ -438,7 +387,6 @@ ul#fund-features li {
   font-size: 14px;
   line-height: 3.07;
   letter-spacing: 0.3px;
-  color: #000000;
 }
 
 ul#fund-features li span.point {
@@ -472,6 +420,5 @@ div#footer-container {
   font-weight: 300;
   line-height: 1.93;
   letter-spacing: 0.3px;
-  color: #ffffff;
   margin-left: 38px;
 }
