@@ -77,10 +77,6 @@ span.pull-quote-highlight {
   font-weight: 400;
 }
 
-/*
-Citylights has the code instantly selectable (for copying) when you click nearby,
-this might be as simple as using a <code> tag and putting the $ in a span.
-*/
 span#pip-install p {
   margin-bottom: 35px;
   padding-left: 18px;
@@ -104,20 +100,9 @@ div#pip-install p {
 #hero-bg-gryphon {
   position: absolute;
   bottom: 0px;
-  /* In Zeplin it's given as a 10px right margin, but the image files that were
-  delivered are have substantially less whitespace in them, 431 vs 494, so here we are
-  just including that difference in the 'right' property.*/
   right: 70px;
 }
 
-/*
-TODO buttons:
-- should they be <buttons>?
-- are we doing the layout properly? are span's the right way to do this?
-- should the icons be in a font?
-- nail down the internal borders, padding numbers to align the text and icons with
-  eachother and with their container.
-*/
 .gryphon-btn, .gryphon-btn:hover, .gryphon-btn:visited {
   border: 1px rgba(255, 255, 255, 0.6);
   font-size: 12px;
@@ -139,9 +124,6 @@ TODO buttons:
   margin-right: 20px;
 }
 
-.btn-lowlight {}
-
-/* The download button is pretty much pixel-perfect.*/
 img.dl-icon {
   float: left;
   padding-top: 19px;
@@ -151,9 +133,6 @@ img.dl-icon {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* This icon has some weird issues with the size of the image. The image is 12x14 in
-zeplin, but 13x16 in the png, and resizing it in css makes it disappear for some
-reason. I think this could be improved slightly.*/
 img.docs-icon {
   float: left;
   padding-top: 19px;
