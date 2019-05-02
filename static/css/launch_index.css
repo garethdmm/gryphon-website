@@ -10,6 +10,10 @@ p {
   letter-spacing: 0.3px;
 }
 
+span.bold {
+  font-weight: 700;
+}
+
 /* Section styles */
 
 div.section-content {
@@ -50,8 +54,7 @@ h3.numeral {
 /* Hero Section */
 
 #hero-container {
-  background-image: url('../../static/img/gryphon-bg-hero.png');
-  background-repeat: no-repeat;
+  background: url('../../static/img/gryphon-bg-hero.png') no-repeat;
   background-position: right 70px bottom;
 }
 
@@ -60,10 +63,6 @@ h1 {
   font-weight: 300;
   letter-spacing: 3.6px;
   color: #30c3e0;
-}
-
-span.h1-highlight {
-  font-weight: 700;
 }
 
 p#pull-quote {
@@ -91,17 +90,6 @@ span#pip-install p {
   line-height: 1.5;
   letter-spacing: 0.4px;
   color: #ffffff;
-}
-
-div#pip-install p {
-  color: white;
-  opacity: 1;
-}
-
-#hero-bg-gryphon {
-  position: absolute;
-  bottom: 0px;
-  right: 70px;
 }
 
 .gryphon-btn, .gryphon-btn:hover, .gryphon-btn:visited {
@@ -161,10 +149,6 @@ div#history h2 {
   line-height: normal;
   letter-spacing: 3.6px;
   text-align: center;
-}
-
-div#history h2 span.bold {
-  font-weight: 700;
 }
 
 /* Strategies Section */
@@ -335,8 +319,7 @@ ul#fund-features li span.point {
 /* Footer Section */
 
 div#footer-container {
-  background-image: url('../../static/img/gryphon-bg-footer.png');
-  background-repeat: no-repeat;
+  background: url('../../static/img/gryphon-bg-footer.png') no-repeat;
   background-position: right 10px bottom;
 }
 
