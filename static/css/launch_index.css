@@ -1,25 +1,16 @@
+/* Universal styles */
 html, body {
   background-color: #28373e;
   font-family: 'Lato';
 }
 
-/* Section title styles */
-
-h2.section-title {
-  font-size: 27px;
-  line-height: normal;
-  letter-spacing: 4.9px;
+p {
+  font-size: 14px;
+  line-height: 1.93;
+  letter-spacing: 0.3px;
 }
 
-h3.numeral {
-  font-family: 'Roboto Mono';
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 1.79;
-  margin-bottom: 0px;
-}
-
-/* General */
+/* Section styles */
 
 div.section-content {
   padding-top: 9rem;
@@ -40,13 +31,23 @@ div.section-grey {
   color: black;
 }
 
-p {
-  font-size: 14px;
-  line-height: 1.93;
-  letter-spacing: 0.3px;
+/* Section title styles */
+
+h2.section-title {
+  font-size: 27px;
+  line-height: normal;
+  letter-spacing: 4.9px;
 }
 
-/* Hero */
+h3.numeral {
+  font-family: 'Roboto Mono';
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.79;
+  margin-bottom: 0px;
+}
+
+/* Hero Section */
 
 #hero-container {
   background-image: url('../../static/img/gryphon-bg-hero.png');
@@ -151,7 +152,7 @@ p.btn-text {
   line-height: inherit;
 }
 
-/* History */
+/* History Section */
 
 div#history h2 {
   padding-top: 5rem;
@@ -166,7 +167,7 @@ div#history h2 span.bold {
   font-weight: 700;
 }
 
-/* Strategies */
+/* Strategies Section */
 
 #strategies h2 {
   margin-bottom: 90px;
@@ -225,7 +226,7 @@ div#integrations p {
   margin-right: auto;
 }
 
-/* Accounting */
+/* Accounting Section */
 
 div#accounting {
   padding-bottom: 0rem;
@@ -235,7 +236,7 @@ p#accounting-desc {
   margin-bottom: 43px;
 }
 
-/* Robust */
+/* Robust Section */
 
 div#robust h3 {
   display: block;
@@ -286,9 +287,9 @@ div#robust-uptime h5 {
 }
 
 
-/* Dashboards */
+/* Dashboards Section */
 
-/* Fund */
+/* Fund Section */
 
 #fund h2.section-title {
   margin-bottom: 47px;
@@ -331,7 +332,7 @@ ul#fund-features li span.point {
   margin-right: 22px;
 }
 
-/* Footer */
+/* Footer Section */
 
 div#footer-container {
   background-image: url('../../static/img/gryphon-bg-footer.png');
