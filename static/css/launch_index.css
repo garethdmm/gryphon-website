@@ -273,7 +273,56 @@ div#robust-uptime h5 {
 
 /* Dashboards Section */
 
+/*
+Current approach to image positioning:
+  - 9rem from the top (in line with the heading)
+  - add padding to the bottom of 10% at the lg breakpoint, 20% at the xl breakpoint.
+
+This works ok enough, although it's quite a lot of code.
+*/
+
+@media (min-width: 768px) {
+  #dashboards-container {
+    background-image: url('../../static/img/image-07.png');
+    background-repeat: no-repeat;
+    background-position: right 9rem;
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  #dashboards-container {
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #dashboards-container {
+    padding-bottom: 20%;
+  }
+}
+
+#dashboards h2.section-title {
+  margin-bottom: 47px;
+}
+
+#dashboards p {
+  font-weight: 300;
+}
+
 /* Fund Section */
+
+/*
+Show the background image on md- and larger screens, otherwise we use the img element.
+*/
+@media (min-width: 768px) {
+  #fund-container {
+    background-image: url('../../static/img/image-07.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 50%;
+  }
+}
 
 #fund h2.section-title {
   margin-bottom: 47px;
