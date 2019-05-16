@@ -283,7 +283,7 @@ This works ok enough, although it's quite a lot of code.
 
 @media (min-width: 768px) {
   #dashboards-container {
-    background-image: url('../../static/img/image-07.png');
+    background-image: url('../../static/img/img-dash-1.png');
     background-repeat: no-repeat;
     background-position: right 9rem;
     background-size: 50%;
@@ -310,6 +310,10 @@ This works ok enough, although it's quite a lot of code.
   font-weight: 300;
 }
 
+div#dashboard-image-col {
+  padding-right: 0px;
+}
+
 /* Fund Section */
 
 /*
@@ -317,7 +321,7 @@ Show the background image on md- and larger screens, otherwise we use the img el
 */
 @media (min-width: 768px) {
   #fund-container {
-    background-image: url('../../static/img/image-07.png');
+    background-image: url('../../static/img/img-runafund.png');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 50%;
@@ -363,6 +367,13 @@ ul#fund-features li span.point {
   font-size: 15px;
   font-weight: 300;
   margin-right: 22px;
+}
+
+div#fund-image-col {
+  /* This sets the image at the right border on small screens and has no effect on md-
+     and above screens.
+  */
+  padding-right: 0px;
 }
 
 /* Footer Section */
