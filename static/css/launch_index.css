@@ -194,6 +194,17 @@ div#history h2 {
   border-left: none;
 }
 
+@media (max-width: 767px) {
+  div#code-example-col {
+    overflow: hidden;
+  }
+
+  #strategies img {
+    max-width: unset;
+    height: 420px;
+  }
+}
+
 /* Integrations */
 
 #integrations {
