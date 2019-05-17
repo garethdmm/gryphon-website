@@ -283,7 +283,7 @@ This works ok enough, although it's quite a lot of code.
 
 @media (min-width: 768px) {
   #dashboards-container {
-    background-image: url('../../static/img/img-dash-1.png');
+    background-image: url('../../static/img/dashboards.png');
     background-repeat: no-repeat;
     background-position: right 9rem;
     background-size: 50%;
@@ -321,7 +321,7 @@ Show the background image on md- and larger screens, otherwise we use the img el
 */
 @media (min-width: 768px) {
   #fund-container {
-    background-image: url('../../static/img/img-runafund.png');
+    background-image: url('../../static/img/fund.png');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 50%;
