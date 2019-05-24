@@ -17,8 +17,15 @@ span.bold {
 /* Section styles */
 
 div.section-content {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  div.section-content {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
 }
 
 div.section-dark {
