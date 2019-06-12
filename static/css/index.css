@@ -434,8 +434,17 @@ div#footer-container {
   background-position: right 10px bottom;
 }
 
-#footer-container p {
+#footer-container p.hero-text {
+  font-size: 17px;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
+}
+
+#footer-container p.hero-text:nth-child(2) {
+  margin-top: 33px;
+  margin-bottom: 0.1rem;
 }
 
 #footer-container h2.section-title {
@@ -452,7 +461,6 @@ div#footer-container {
     margin-right: 20px;
   }
 }
-
 #footer-footer p {
   width: 500px;
   height: 27px;
