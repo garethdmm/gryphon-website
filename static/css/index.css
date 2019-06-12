@@ -69,6 +69,10 @@ h3.numeral {
   margin-right: 55px;
 }
 
+#navbar-expandable li.nav-item.dropdown a.nav-link {
+  margin-right: 0px;
+}
+
 div#community-dropdown {
   background: #1d292e;
   border-radius: 0px;
