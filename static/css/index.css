@@ -58,6 +58,39 @@ h3.numeral {
   margin-bottom: 0px;
 }
 
+/* Navbar */
+
+a.nav-link {
+  color: white;
+  font-family: 'Lato';
+  font-size: 12px;
+  letter-spacing: 2.2px;
+  font-weight: 300;
+  margin-right: 55px;
+}
+
+div#community-dropdown {
+  background: #1d292e;
+  border-radius: 0px;
+}
+
+#community-dropdown a.dropdown-item,
+#community-dropdown a.dropdown-item:hover,
+#community-dropdown a.dropdown-item:focus {
+  font-size: 14px;
+  font-family: 'Lato';
+  line-height: 1.93;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+#community-dropdown img {
+  padding-right: 0.5rem;
+}
+
 /* Hero Section */
 
 #hero-container {
