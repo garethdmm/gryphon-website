@@ -441,3 +441,22 @@ div#footer-container {
   font-weight: 300;
   margin-left: 38px;
 }
+
+#footer-container p {
+  text-align: center;
+}
+
+#footer-container h2.section-title {
+  text-align: center;
+}
+
+
+#footer-container .gryphon-btn {
+  margin-right: 0px;
+}
+
+@media (min-width: 768px) {
+  #footer-container .gryphon-btn {
+    margin-right: 20px;
+  }
+}
