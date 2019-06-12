@@ -60,7 +60,7 @@ h3.numeral {
 
 /* Navbar */
 
-a.nav-link {
+#navbar-expandable a.nav-link {
   color: white;
   font-family: 'Lato';
   font-size: 12px;
