@@ -198,7 +198,7 @@ div#history h2 {
 /* Strategies Section */
 
 #strategies h2 {
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 
 #strategies h4 {
@@ -206,6 +206,11 @@ div#history h2 {
   font-weight: 300;
   line-height: 2.05;
   color: #30c3e0;
+}
+
+#strategies p#strategy-desc {
+  font-weight: 300;
+  margin-bottom: 60px;
 }
 
 #strategies p.descriptor {

@@ -88,9 +88,9 @@
         <div class='section-content col-sm-12 col-lg-7' id='history'>
           <img class='d-block mx-auto' src='static/img/tinker-gryphon.png'/>
           <h2><span class='bold'>ENTERPRISE GRADE</span> GOES OPEN SOURCE</h2>
-          <p>Gryphon is an application suite and software library for running a trading business focused on cryptocurrencies. It has tools to accelerate every phase of running a trading business, from strategy design and execution to financial reporting.</p>
-          <p>Up until now, Gryphon was the proprietary stack of Tinker, one of the earliest professional market making companies in the cryptocurrency world. Using Gryphon, Tinker traded over $30 billion worth of cryptocurrency at 2019 prices, sometimes representing 30% of daily volume on regulated exchanges.</p>
-          <p>Now that Gryphon is open source, everyone can take advantage of the years of practical learning that are built into the framework.</p>
+          <p>Gryphon is an application suite and software library for algorithmic trading in cryptocurrency markets. It has tools to accelerate every phase of running a trading business, from strategy design and execution to financial reporting.</p>
+          <p>Up until now, Gryphon was the proprietary stack of Tinker, one of the earliest professional market making companies in the cryptocurrency world. Using Gryphon, Tinker traded over $8 billion worth of cryptocurrency over 3 years, representing as high as 30% of daily volume on regulated exchanges.</p>
+          <p>Gryphon is now an open source project, so everyone can take advantage of the years of practical learning that are built into the framework.</p>
         </div>
       </div>
       <div class='section-dark row justify-content-center'>
@@ -102,13 +102,20 @@
             </div>
           </div>
           <div class='row'>
+            <div class='col col-md-6 mr-auto'>
+              <p id='strategy-desc'>The core design principle of Gryphon is to make life easy for strategy designers. You can focus on writing trading behaviour, and let the framework handle the details.</p>
+            </div>
+          </div>
+          <div class='row'>
             <div class='col-sm-12 col-md-4' id='text-col'>
-              <h4>Fast</h4>
-              <p class='descriptor pb-0 pb-md-5'>You can install, write, and run your first strategy in under 5 minutes.</p>
-              <h4>Short</h4>
-              <p class='descriptor pb-0 pb-md-5'>Dozens of built-in features and building block libraries make it possible to express complex trading behaviour in very little code.</p>
-              <h4>Packed</h4>
-              <p class='descriptor'>Ships with built in strategies you can run instantly.</p>
+              <h4>Expressive Syntax</h4>
+              <p class='descriptor pb-0 pb-md-5'>Exchange operations and other common fuctions are written in human-readable form.</p>
+              <!--<h4>Get Started Fast</h4>
+              <p class='descriptor pb-0 pb-md-5'>You can install Gryphon, write, and run your first strategy in under ten minutes</p>-->
+              <h4>Building-block libraries</h4>
+              <p class='descriptor pb-0 pb-md-5'>Dozens of built-in features and building block libraries make it possible to create complex trading behaviour in very little code.</p>
+              <h4>Built-in Strategies</h4>
+              <p class='descriptor'>Ships with 4 built-in strategies you can run instantly, and use as a template for your own strategies.</p>
             </div>
             <div class='col-sm-12 col-md-8' id='code-example-col'>
               <img class='img-fluid' id='code-example' src='static/img/code-example.png'>
@@ -122,7 +129,7 @@
             <div class='col'>
               <h3 class='numeral'>02</h3>
               <h2 class='section-title'>ROBUST, PROVEN PLATFORM</h2>
-              <p id='robust-desc'>Gryphon has run for 25000 trading hours, made millions of trades representing billions of dollars of volume, with no substantial failures.</p>
+              <p id='robust-desc'>Gryphon is the tempered steel of trading systems. It's already seen 25000 trading hours, made millions of trades representing billions of dollars of volume. Not to mention the thousands of lines of unit tests that secure every build.</p>
             </div>
           </div>
           <div class='row no-gutters center-justify-content' id='robust-points'>
@@ -140,8 +147,8 @@
             <div class='w-100 pb-3 d-md-none'></div>
             <div class='col'>
               <img src='static/img/icon-tradedtodate.png'/>
-              <h4>16</h4>
-              <p class='metric-subtitle'>BILLION TRADED</p>
+              <h4>8+</h4>
+              <p class='metric-subtitle'>BILLIONS TRADED</p>
             </div>
           </div>
           <div class='row' id='robust-uptime'>
@@ -164,7 +171,7 @@
           </div>
           <div class='row'>
             <div class='col'>
-              <p>Working with exchanges is hard. We’ve done all the work to turn 40 APIs into a single simple interface. Solved all the rounding errors/404s through years of experience. Start with our integrations for bitstamp, gemini, or coinbase, many others, or add your own.</p>
+              <p>Working with exchanges is hard, and dealing with rate limits, rounding behaviour, nonces, and other details can add thousands of lines of code to a project. Gryphon handles all of this for you, giving the user a single reliable interface for each of 20+ trading pairs, with all the details already solved.
             </div>
             <div class='w-100 pb-3 d-md-none'></div>
             <div class='col'>
@@ -185,7 +192,7 @@
               <h2 class='section-title'>TRACK EVERY PENNY</h2>
             </div>
             <div class='col'>
-              <p id='accounting-desc'>Track every order/trade/deposit/transaction so you know your position down to the cent and satoshi. Gryphon can achieve $0.01 ledger accuracy over hundreds of millions of volume on the best exchanges.</p>
+              <p id='accounting-desc'>High-frequency trading requires ultra-precise trade accounting. Gryphon automatically tracks every order, trade, and transaction that it processes in it's Trading Database, and can achieve $0.01 ledger accuracy over millions of dollars of volume on the best exchanges.</p>
             </div>
           </div>
           <div class='row flex-grow-1 align-items-end'>
@@ -228,15 +235,14 @@
           </div>
           <div class='row'>
             <div class='col-sm-12 col-md-6'>
-              <p id='fund-desc'>Gryphon has all the capability and tools needed to run a multi-strategy hedge fund with millions under management.</p>
+              <p id='fund-desc'>Gryphon has all the tools needed to run a multi-strategy hedge fund with millions under management.</p>
               <ul id='fund-features'>
-                <h5>TOOLS INCLUDED</h5>
-                <li><span class='point'>+</span>FINANCIAL REPORTING & TAX TOOLS</li>
-                <li><span class='point'>+</span>MANAGING OUTSIDE INVESTMENTS</li>
-                <li><span class='point'>+</span>MANAGING POSITION RISK</li>
-                <li><span class='point'>+</span>OPTIMIZE CAPITAL ALLOCATION BETWEEN EXCHANGES</li>
-                <li><span class='point'>+</span>INTEGRATE YOUR BANK ACCOUNTS</li>
-                <li><span class='point'>+</span>OPTIMIZE EXCHANGE FEES VS. P&L</li>
+                <h5>GRYPHON HELPS YOU</h5>
+                <li><span class='point'>+</span>QUANTIFY AND REDUCE POSITION RISK</li>
+                <li><span class='point'>+</span>OPTIMIZE EXCHANGE, INTEREST, AND TRANSFER FEES</li>
+                <li><span class='point'>+</span>MOVE ASSETS RESPONSIVELY TO MARKET CONDITIONS</li>
+                <li><span class='point'>+</span>OPTIMIZE ASSET ALLOCATION BETWEEN EXCHANGES</li>
+                <li><span class='point'>+</span>EXPORT DATA FOR FINANCIAL REPORTING</li>
               </ul>
             </div>
             <div class='col-sm-12 col-md-6' id='fund-image-col'>
